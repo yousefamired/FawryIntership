@@ -6,6 +6,7 @@ public class Checkout {
             for (Product item : cart.products) {
                 System.out.println( item.getName() + " " + (int) item.getPrice());
             }
+            System.out.println("Total Amount of Items : "+ cart.getTotalItems());
             System.out.println("----------------------");
             System.out.println("Subtotal " + cart.subPrice);
             System.out.println("Shipping " + cart.totalShipping);
